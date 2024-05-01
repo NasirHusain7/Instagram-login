@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    height: 500px;
+    width: 350px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.login-box{
+    height: 410px;
+    width: 100%;
+    /* border: 1px solid gray; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0.2px 0.2px 10px gray, -0.2px -0.2px 10px gray;
+}
+input{
+    height: 38px;
+    width: 75%;
+    outline: none;
+    padding: 3px;
+}
+.login-btn{
+    height: 32px;
+    width: 75%;
+    border-radius: 5px;
+    background-color: #4CB5F9;
+    color: white;
+    border: none;
+}
+.login-with-fb a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #012b74;
+}
+.login-with-fb i{
+    font-size: 25px;
+}
+.f-password{
+    text-decoration: none;
+    color: #012b74;
+    font-size: 14px;
+}
+h1{
+    font-family: "Dancing Script", cursive;
+    font-size: 45px;
+}
+.signup-box{
+    border: 1px solid gray;
+    height: 63px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0.2px 0.2px 10px gray, -0.2px -0.2px 10px gray;
+}
+.signup-box a{
+    text-decoration: none;
+    color: #012b74;
+}
+.login-btn:hover{
+    background-color: #23a0f4;
+}
+.login-btn:active{
+    background-color: #2680bc;
+}
